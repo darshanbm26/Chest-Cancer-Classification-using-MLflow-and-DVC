@@ -11,3 +11,15 @@
 7. Update the pipeline 
 8. Update the main.py 
 9. Update the dvc.yaml
+
+## Dagshub and MLflow bash
+
+```bash
+
+export MLFLOW_TRACKING_URI=
+
+export MLFLOW_TRACKING_USERNAME=
+
+export MLFLOW_TRACKING_PASSWORD=
+
+```
