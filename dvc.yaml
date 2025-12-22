@@ -9,7 +9,7 @@ stages:
 
   prepare_base_model:
     cmd: python src/cnnClassifier/pipeline/stage_02_prepare_base_model.py
-    deps:
+    deps: 
       - src/cnnClassifier/pipeline/stage_02_prepare_base_model.py
       - config/config.yaml
     params:
